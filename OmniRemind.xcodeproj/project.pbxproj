@@ -14,6 +14,33 @@
 		8B2234D11AAF0EAC008A2087 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B2234D01AAF0EAC008A2087 /* Images.xcassets */; };
 		8B2234D41AAF0EAC008A2087 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B2234D21AAF0EAC008A2087 /* LaunchScreen.xib */; };
 		8B2234E01AAF0EAC008A2087 /* OmniRemindTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2234DF1AAF0EAC008A2087 /* OmniRemindTests.m */; };
+		8B2234EB1AAF0FF9008A2087 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B2234E91AAF0FF9008A2087 /* Bolts.framework */; };
+		8B2234EC1AAF0FF9008A2087 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B2234EA1AAF0FF9008A2087 /* Parse.framework */; };
+		8B2234F91AAF10FD008A2087 /* CreateAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2234EE1AAF10FD008A2087 /* CreateAccountViewController.m */; };
+		8B2234FA1AAF10FD008A2087 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2234F01AAF10FD008A2087 /* LoginViewController.m */; };
+		8B2234FB1AAF10FD008A2087 /* Reminder.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2234F21AAF10FD008A2087 /* Reminder.m */; };
+		8B2234FC1AAF10FD008A2087 /* ReminderList.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2234F41AAF10FD008A2087 /* ReminderList.m */; };
+		8B2234FD1AAF10FD008A2087 /* ReminderListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2234F61AAF10FD008A2087 /* ReminderListViewController.m */; };
+		8B2234FE1AAF10FD008A2087 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2234F81AAF10FD008A2087 /* User.m */; };
+		8B2235031AAF1152008A2087 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8B2235001AAF1152008A2087 /* SVProgressHUD.bundle */; };
+		8B2235041AAF1152008A2087 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2235021AAF1152008A2087 /* SVProgressHUD.m */; };
+		8B2235071AAF1514008A2087 /* ReminderMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2235061AAF1514008A2087 /* ReminderMapViewController.m */; };
+		8B22350A1AAF157E008A2087 /* AddReminderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2235091AAF157E008A2087 /* AddReminderViewController.m */; };
+		8B22350C1AAF196A008A2087 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B22350B1AAF196A008A2087 /* AudioToolbox.framework */; };
+		8B22350E1AAF1974008A2087 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B22350D1AAF1974008A2087 /* CFNetwork.framework */; };
+		8B2235101AAF197C008A2087 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B22350F1AAF197C008A2087 /* CoreGraphics.framework */; };
+		8B2235121AAF1984008A2087 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B2235111AAF1984008A2087 /* CoreLocation.framework */; };
+		8B2235141AAF198D008A2087 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B2235131AAF198D008A2087 /* MobileCoreServices.framework */; };
+		8B2235161AAF1995008A2087 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B2235151AAF1995008A2087 /* QuartzCore.framework */; };
+		8B2235181AAF199E008A2087 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B2235171AAF199E008A2087 /* Security.framework */; };
+		8B22351C1AAF19B1008A2087 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B22351B1AAF19B1008A2087 /* SystemConfiguration.framework */; };
+		8B22351E1AAF19B9008A2087 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B22351D1AAF19B9008A2087 /* libz.dylib */; };
+		8B2235201AAF19C2008A2087 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B22351F1AAF19C2008A2087 /* libsqlite3.dylib */; };
+		8B76F45E1AB14CED00E70306 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B76F45D1AB14CED00E70306 /* MapKit.framework */; };
+		8B76F4611AB1785000E70306 /* LocationPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B76F4601AB1785000E70306 /* LocationPickerViewController.m */; };
+		8B76F4671AB4765F00E70306 /* WGS84TOGCJ02.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B76F4661AB4765F00E70306 /* WGS84TOGCJ02.m */; };
+		8B76F46A1AB5484900E70306 /* JZLocationConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B76F4691AB5484900E70306 /* JZLocationConverter.m */; };
+		8BAFF1A71ABD0FB700E99B14 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAFF1A61ABD0FB700E99B14 /* Common.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +67,46 @@
 		8B2234D91AAF0EAC008A2087 /* OmniRemindTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OmniRemindTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B2234DE1AAF0EAC008A2087 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B2234DF1AAF0EAC008A2087 /* OmniRemindTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OmniRemindTests.m; sourceTree = "<group>"; };
+		8B2234E91AAF0FF9008A2087 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		8B2234EA1AAF0FF9008A2087 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		8B2234ED1AAF10FD008A2087 /* CreateAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateAccountViewController.h; sourceTree = "<group>"; };
+		8B2234EE1AAF10FD008A2087 /* CreateAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateAccountViewController.m; sourceTree = "<group>"; };
+		8B2234EF1AAF10FD008A2087 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		8B2234F01AAF10FD008A2087 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		8B2234F11AAF10FD008A2087 /* Reminder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reminder.h; sourceTree = "<group>"; };
+		8B2234F21AAF10FD008A2087 /* Reminder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reminder.m; sourceTree = "<group>"; };
+		8B2234F31AAF10FD008A2087 /* ReminderList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReminderList.h; sourceTree = "<group>"; };
+		8B2234F41AAF10FD008A2087 /* ReminderList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReminderList.m; sourceTree = "<group>"; };
+		8B2234F51AAF10FD008A2087 /* ReminderListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReminderListViewController.h; sourceTree = "<group>"; };
+		8B2234F61AAF10FD008A2087 /* ReminderListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReminderListViewController.m; sourceTree = "<group>"; };
+		8B2234F71AAF10FD008A2087 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		8B2234F81AAF10FD008A2087 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		8B2235001AAF1152008A2087 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		8B2235011AAF1152008A2087 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		8B2235021AAF1152008A2087 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		8B2235051AAF1514008A2087 /* ReminderMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReminderMapViewController.h; sourceTree = "<group>"; };
+		8B2235061AAF1514008A2087 /* ReminderMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReminderMapViewController.m; sourceTree = "<group>"; };
+		8B2235081AAF157E008A2087 /* AddReminderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddReminderViewController.h; sourceTree = "<group>"; };
+		8B2235091AAF157E008A2087 /* AddReminderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddReminderViewController.m; sourceTree = "<group>"; };
+		8B22350B1AAF196A008A2087 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		8B22350D1AAF1974008A2087 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		8B22350F1AAF197C008A2087 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8B2235111AAF1984008A2087 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8B2235131AAF198D008A2087 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		8B2235151AAF1995008A2087 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8B2235171AAF199E008A2087 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		8B22351B1AAF19B1008A2087 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8B22351D1AAF19B9008A2087 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		8B22351F1AAF19C2008A2087 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		8B76F45D1AB14CED00E70306 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		8B76F45F1AB1785000E70306 /* LocationPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationPickerViewController.h; sourceTree = "<group>"; };
+		8B76F4601AB1785000E70306 /* LocationPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationPickerViewController.m; sourceTree = "<group>"; };
+		8B76F4651AB4765F00E70306 /* WGS84TOGCJ02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WGS84TOGCJ02.h; path = ../WGS84TOGCJ02.h; sourceTree = "<group>"; };
+		8B76F4661AB4765F00E70306 /* WGS84TOGCJ02.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WGS84TOGCJ02.m; path = ../WGS84TOGCJ02.m; sourceTree = "<group>"; };
+		8B76F4681AB5484900E70306 /* JZLocationConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZLocationConverter.h; sourceTree = "<group>"; };
+		8B76F4691AB5484900E70306 /* JZLocationConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZLocationConverter.m; sourceTree = "<group>"; };
+		8BAFF1A61ABD0FB700E99B14 /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
+		8BB999191AB7359200EB8BB9 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +114,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B76F45E1AB14CED00E70306 /* MapKit.framework in Frameworks */,
+				8B2235201AAF19C2008A2087 /* libsqlite3.dylib in Frameworks */,
+				8B22351E1AAF19B9008A2087 /* libz.dylib in Frameworks */,
+				8B22351C1AAF19B1008A2087 /* SystemConfiguration.framework in Frameworks */,
+				8B2235181AAF199E008A2087 /* Security.framework in Frameworks */,
+				8B2235161AAF1995008A2087 /* QuartzCore.framework in Frameworks */,
+				8B2235141AAF198D008A2087 /* MobileCoreServices.framework in Frameworks */,
+				8B2235121AAF1984008A2087 /* CoreLocation.framework in Frameworks */,
+				8B2235101AAF197C008A2087 /* CoreGraphics.framework in Frameworks */,
+				8B22350E1AAF1974008A2087 /* CFNetwork.framework in Frameworks */,
+				8B22350C1AAF196A008A2087 /* AudioToolbox.framework in Frameworks */,
+				8B2234EC1AAF0FF9008A2087 /* Parse.framework in Frameworks */,
+				8B2234EB1AAF0FF9008A2087 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +143,17 @@
 		8B2234B71AAF0EAC008A2087 = {
 			isa = PBXGroup;
 			children = (
+				8B22351F1AAF19C2008A2087 /* libsqlite3.dylib */,
+				8B22351D1AAF19B9008A2087 /* libz.dylib */,
+				8B76F45D1AB14CED00E70306 /* MapKit.framework */,
+				8B22351B1AAF19B1008A2087 /* SystemConfiguration.framework */,
+				8B2235171AAF199E008A2087 /* Security.framework */,
+				8B2235151AAF1995008A2087 /* QuartzCore.framework */,
+				8B2235131AAF198D008A2087 /* MobileCoreServices.framework */,
+				8B2235111AAF1984008A2087 /* CoreLocation.framework */,
+				8B22350F1AAF197C008A2087 /* CoreGraphics.framework */,
+				8B22350D1AAF1974008A2087 /* CFNetwork.framework */,
+				8B22350B1AAF196A008A2087 /* AudioToolbox.framework */,
 				8B2234C21AAF0EAC008A2087 /* OmniRemind */,
 				8B2234DC1AAF0EAC008A2087 /* OmniRemindTests */,
 				8B2234C11AAF0EAC008A2087 /* Products */,
@@ -81,10 +172,35 @@
 		8B2234C21AAF0EAC008A2087 /* OmniRemind */ = {
 			isa = PBXGroup;
 			children = (
+				8B2234FF1AAF1152008A2087 /* SVProgressHUD */,
+				8B2234E91AAF0FF9008A2087 /* Bolts.framework */,
+				8B2234EA1AAF0FF9008A2087 /* Parse.framework */,
 				8B2234C71AAF0EAC008A2087 /* AppDelegate.h */,
 				8B2234C81AAF0EAC008A2087 /* AppDelegate.m */,
-				8B2234CA1AAF0EAC008A2087 /* ViewController.h */,
-				8B2234CB1AAF0EAC008A2087 /* ViewController.m */,
+				8BB999191AB7359200EB8BB9 /* Common.h */,
+				8BAFF1A61ABD0FB700E99B14 /* Common.m */,
+				8B76F4651AB4765F00E70306 /* WGS84TOGCJ02.h */,
+				8B76F4661AB4765F00E70306 /* WGS84TOGCJ02.m */,
+				8B76F4681AB5484900E70306 /* JZLocationConverter.h */,
+				8B76F4691AB5484900E70306 /* JZLocationConverter.m */,
+				8B2234F11AAF10FD008A2087 /* Reminder.h */,
+				8B2234F21AAF10FD008A2087 /* Reminder.m */,
+				8B2234F31AAF10FD008A2087 /* ReminderList.h */,
+				8B2234F41AAF10FD008A2087 /* ReminderList.m */,
+				8B2234F71AAF10FD008A2087 /* User.h */,
+				8B2234F81AAF10FD008A2087 /* User.m */,
+				8B2234F51AAF10FD008A2087 /* ReminderListViewController.h */,
+				8B2234F61AAF10FD008A2087 /* ReminderListViewController.m */,
+				8B2234ED1AAF10FD008A2087 /* CreateAccountViewController.h */,
+				8B2234EE1AAF10FD008A2087 /* CreateAccountViewController.m */,
+				8B2234EF1AAF10FD008A2087 /* LoginViewController.h */,
+				8B2234F01AAF10FD008A2087 /* LoginViewController.m */,
+				8B2235081AAF157E008A2087 /* AddReminderViewController.h */,
+				8B2235091AAF157E008A2087 /* AddReminderViewController.m */,
+				8B2235051AAF1514008A2087 /* ReminderMapViewController.h */,
+				8B2235061AAF1514008A2087 /* ReminderMapViewController.m */,
+				8B76F45F1AB1785000E70306 /* LocationPickerViewController.h */,
+				8B76F4601AB1785000E70306 /* LocationPickerViewController.m */,
 				8B2234CD1AAF0EAC008A2087 /* Main.storyboard */,
 				8B2234D01AAF0EAC008A2087 /* Images.xcassets */,
 				8B2234D21AAF0EAC008A2087 /* LaunchScreen.xib */,
@@ -96,6 +212,8 @@
 		8B2234C31AAF0EAC008A2087 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8B2234CA1AAF0EAC008A2087 /* ViewController.h */,
+				8B2234CB1AAF0EAC008A2087 /* ViewController.m */,
 				8B2234C41AAF0EAC008A2087 /* Info.plist */,
 				8B2234C51AAF0EAC008A2087 /* main.m */,
 			);
@@ -117,6 +235,16 @@
 				8B2234DE1AAF0EAC008A2087 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B2234FF1AAF1152008A2087 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				8B2235001AAF1152008A2087 /* SVProgressHUD.bundle */,
+				8B2235011AAF1152008A2087 /* SVProgressHUD.h */,
+				8B2235021AAF1152008A2087 /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +296,15 @@
 				TargetAttributes = {
 					8B2234BF1AAF0EAC008A2087 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = F399B22LWE;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+						};
 					};
 					8B2234D81AAF0EAC008A2087 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -202,6 +339,7 @@
 				8B2234CF1AAF0EAC008A2087 /* Main.storyboard in Resources */,
 				8B2234D41AAF0EAC008A2087 /* LaunchScreen.xib in Resources */,
 				8B2234D11AAF0EAC008A2087 /* Images.xcassets in Resources */,
+				8B2235031AAF1152008A2087 /* SVProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +357,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B22350A1AAF157E008A2087 /* AddReminderViewController.m in Sources */,
+				8B2235071AAF1514008A2087 /* ReminderMapViewController.m in Sources */,
+				8B2234FD1AAF10FD008A2087 /* ReminderListViewController.m in Sources */,
+				8B2234F91AAF10FD008A2087 /* CreateAccountViewController.m in Sources */,
+				8B2234FE1AAF10FD008A2087 /* User.m in Sources */,
+				8B76F4611AB1785000E70306 /* LocationPickerViewController.m in Sources */,
+				8B2234FB1AAF10FD008A2087 /* Reminder.m in Sources */,
 				8B2234CC1AAF0EAC008A2087 /* ViewController.m in Sources */,
+				8B76F46A1AB5484900E70306 /* JZLocationConverter.m in Sources */,
+				8B2234FC1AAF10FD008A2087 /* ReminderList.m in Sources */,
+				8B76F4671AB4765F00E70306 /* WGS84TOGCJ02.m in Sources */,
 				8B2234C91AAF0EAC008A2087 /* AppDelegate.m in Sources */,
+				8BAFF1A71ABD0FB700E99B14 /* Common.m in Sources */,
+				8B2235041AAF1152008A2087 /* SVProgressHUD.m in Sources */,
 				8B2234C61AAF0EAC008A2087 /* main.m in Sources */,
+				8B2234FA1AAF10FD008A2087 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +494,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OmniRemind",
+				);
 				INFOPLIST_FILE = OmniRemind/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -353,6 +508,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OmniRemind",
+				);
 				INFOPLIST_FILE = OmniRemind/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,6 +571,7 @@
 				8B2234E51AAF0EAC008A2087 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B2234E61AAF0EAC008A2087 /* Build configuration list for PBXNativeTarget "OmniRemindTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +580,7 @@
 				8B2234E81AAF0EAC008A2087 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

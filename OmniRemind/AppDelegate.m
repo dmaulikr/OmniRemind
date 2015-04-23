@@ -7,15 +7,33 @@
 //
 
 #import "AppDelegate.h"
+#import "Common.h"
 
 @interface AppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation AppDelegate 
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [Parse enableLocalDatastore];
+    
+    // Initialize Parse.
+    [Parse setApplicationId:@"5GIuPra7liUbLhWuGvmnXVLMLOCC5Mib6dd9iPOi"
+                  clientKey:@"3ThnEaMkoFvG6gAJaZuLZFSoCG6lEKpkIuuwJSbB"];
+    
+    // [Optional] Track statistics around application opens.
+    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+
+    // Override point for customization after application launch.
+    if ([UIApplication instancesRespondToSelector:@selector(registerUserNotificationSettings:)]){
+        [application registerUserNotificationSettings:[UIUserNotificationSettings settingsForTypes:UIUserNotificationTypeAlert|UIUserNotificationTypeBadge|UIUserNotificationTypeSound categories:nil]];
+    }
+    glb_reminderList = [[ReminderList alloc]init];
+    glb_user = [[User alloc]init];
+
+    
     // Override point for customization after application launch.
     return YES;
 }
@@ -42,4 +60,12 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+- (void)application:(UIApplication *)application didReceiveLocalNotification:(UILocalNotification *)notification{
+    if ([application applicationState]==UIApplicationStateActive){
+        UIAlertView *alert = [[UIAlertView alloc]
+                              initWithTitle:@"Reminder" message:notification.alertBody delegate:nil cancelButtonTitle:@"OK, I Got It" otherButtonTitles:nil];
+        [alert show];
+        
+    }
+}
 @end
